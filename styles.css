@@ -1,0 +1,133 @@
+header {
+    display: flex;  
+    flex-direction: row;   
+    justify-content: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.instructionContainer {
+    display: flex;  
+    flex-direction: row;   
+    justify-content: center;
+    
+    font-size: large;
+}
+
+footer {
+    display: flex;  
+    flex-direction: row; 
+    /*flex-direction: row;*/
+    /*align-items: center;*/
+    justify-content: center;
+    align-items: flex-end;
+    font-style: italic;
+}
+
+/*
+#highestScoreEverBox, #guessedNumberBox, #compareBox, #computerNumberBox, #scoreBox, #nextBox {
+    width: 100px;
+    height: 100px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+
+    // to center the text 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+
+    // Add vertical margin
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    // Add horizontal margin
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+*/
+
+ #compareBox, #computerNumberBox {
+    width: 100px;
+    height: 100px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#highestScoreEverBox,  #scoreBox, #nextBox {
+    width: 100px;
+    height: 100px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+
+    /* to center the text */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+
+    /* Add vertical margin */
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    /* Add horizontal margin */
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+
+
+/* centreing the boxes in a line */
+.numbersAndCompareContainer {
+    display: flex;  
+    flex-direction: row;   
+    justify-content: center;
+}
+
+
+.highestScoreEverContainer  {
+    display: flex;  
+    flex-direction: row;   
+    justify-content: flex-end;
+}
+
+.scoreContainer, .submitBtnContainer  {
+    display: flex;  
+    flex-direction: row;   
+    justify-content: center;
+}
+
+.nextContainer  {
+    display: flex;  
+    flex-direction: row;   
+    justify-content: flex-end;
+}
+
+
